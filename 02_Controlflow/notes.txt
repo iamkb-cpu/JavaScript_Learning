@@ -1,0 +1,64 @@
+This section covers two main topics:
+(i). Conditional Statements: How to make your program make decisions (if, switch).
+(ii). Exception Handling: How to deal with errors gracefully (try...catch).
+
+1. Block Statements ({ }) and Scope
+
+Purpose: A block statement is a pair of curly braces { } used to group zero or more JavaScript statements.
+
+Usage: You'll use them constantly with if, else, switch, for, while, etc., to define what code should be run for that condition or loop.
+
+The var "Gotcha": As the note points out, variables declared with var are not block-scoped. They are function-scoped (or global). This means they "leak out" of the block.
+
+Modern Practice: This "leaking" behavior is confusing. That's why let and const were introduced. They are block-scoped, meaning they only exist inside the { } they are defined in. You should almost always prefer let and const.
+
+What is Control Flow?
+
+Control flow determines how your code executes, step by step.
+It allows you to make decisions, repeat actions, and handle errors instead of running linearly from top to bottom.
+===========================================================================================================================
+i. if / else statement
+
+- Used for decision making.
+- Executes one block if a condition is true, another if false.
+-------------------------------------------------------------------------------------------------------------------------
+ii. switch statement
+
+Used to execute different code blocks based on specific values of a variable.
+-------------------------------------------------------------------------------------------------------------------------
+iii. for loop
+
+Repeats a block of code a fixed number of times.
+-------------------------------------------------------------------------------------------------------------------------
+iv. while loop
+
+Repeats as long as the condition is true.
+---------------------------------------------------------------------------------------------------------------------
+v. do...while loop
+
+Runs at least once, even if the condition is false.
+-------------------------------------------------------------------------------------------------------------------------
+vi. break and continue
+
+- break → exits a loop or switch entirely.
+
+- continue → skips current iteration, continues with the next one.
+-----------------------------------------------------------------------------------------------------------------------------------
+vii. for...in
+
+Used to loop through object properties.
+-------------------------------------------------------------------------------------------------------------------------
+viii. for...of
+
+Used to loop through arrays or strings.
+--------------------------------------------------------------------------------------------------------------------------
+ix. labelled statement (rarely used)
+
+Labels allow you to name a loop and break or continue that specific loop.
+
+
+
+
+
+
+

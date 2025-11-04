@@ -1,0 +1,47 @@
+Variables
+-------------------------------------------------------------------------
+Variables are containers used to store data values.
+In JavaScript, you can declare variables in three ways:
+
+var — function-scoped, can be redeclared.
+
+let — block-scoped, can be updated but not redeclared in the same block.
+
+const — block-scoped, cannot be updated or redeclared.
+
+=========================================================================
+
+
+Data Types
+-------------------------------------------------------------------------
+JavaScript data types are divided into two groups:
+🔹 Primitive Types
+
+String → text data
+Number → numeric values
+Boolean → true or false
+Undefined → variable declared but not assigned a value
+Null → intentional empty value
+BigInt → large numbers
+Symbol → unique identifier
+
+🔸 Structural Types
+
+1. Object → stores multiple values as key–value pairs
+
+2. Function → reusable block of code
+
+==========================================================================
+This one program covers:
+
+1. Variable declarations (let, const)
+2. All primitive data types
+3. Objects and functions
+
+Concept Covered by :
+
+Creating a small script that stores :
+1. a student’s details, 
+2. calculates total marks, 
+3. checks pass/fail,
+4. prints everything neatly.

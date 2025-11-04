@@ -58,7 +58,37 @@ Labels allow you to name a loop and break or continue that specific loop.
 
 
 
+============================================================================================================================
+==========================================================================================================================
+===============================================================================================================================
+
+Error Handling
+
+- Sometimes our code may break (for example, dividing by zero or using undefined variables).
+- Error Handling helps you catch errors gracefully instead of crashing the program.
+
+i. try...catch
+
+Sometimes our JavaScript program runs into an error (for example, dividing by zero, using undefined variables, or invalid user input).
+If not handled, the program stops running — and you don’t want that.
+
+To prevent that, we use try...catch — it lets us “try” some code and “catch” errors if they occur.
+
+flow:
+
+The code in try runs first.
+
+If an error happens, JavaScript jumps to catch and runs it.
+
+Whether there was an error or not, the finally block runs in the end.
 
 
+ii. finally
 
+Even though an error occurred, the finally block always runs.
 
+You use it to clean up resources, like closing files, stopping timers, or disconnecting from a database.
+
+iii. Throwing Custom Errors
+
+You can create your own errors using the throw keyword.
